@@ -10,7 +10,7 @@ from spacy.lang.en import English
 import gspread
 nltk.download('punkt')
 gc = gspread.service_account(filename='data/sheets-json-secret-key.json')
-sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1pNg9FxXvoEHcE3QyyHKAn60hlg6WP69kAK3GXia1tQU/edit?usp=sharing')
+sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1mEdS4gnmO0R8CdqGdoTPV4RxvD_OjJMnK_fmLE5UMco/edit?usp=sharing')
 
 emoticons_sad = {':L', ':-/', '>:/', ':S', '>:[', ':@', ':-(', ':[', ':-||', '=L', ':<', ':-[', ':-<', '=\\', '=/',
                  '>:(', ':(', '>.<', ":'-(", ":'(", ':\\', ':-c', ':c', ':{', '>:\\', ';('}
